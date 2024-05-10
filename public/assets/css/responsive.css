@@ -1,0 +1,84 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .msg-btn {
+        width: 100%;
+    }
+    .multisteps-form__progress-btn span {
+        visibility: hidden;
+    }
+    .multisteps-form__progress-btn {
+        padding-top: 0px;
+    }
+    .js-btn-next,
+    .finitsh-btn,
+    .js-btn-prev {
+        width: 100px;
+    }
+    .kt-portlet .kt-portlet__body {
+        padding: 1px;
+    }
+    .second-box {
+        padding: 0.25rem;
+    }
+    .kt-widget.kt-widget--general-1 .kt-widget__wrapper .kt-widget__label .kt-widget__title {
+        font-size: 13px;
+    }
+    .kt-widget__desc p,
+    .kt-widget__desc {
+        font-size: 10px;
+    }
+    .app-img-download {
+        flex-direction: column;
+    }
+    .m-mt-2 {
+        margin-top: 20px;
+    }
+    .news-details-card-body {
+        padding: unset !important;
+    }
+    .custom-profile-navlink .nav-link {
+        width: 100%;
+    }
+    .custom-profile-info .custom-widget-message-header img {
+        width: 40px;
+        height: 40px;
+    }
+    .custom-edit-btn {
+        width: unset;
+        height: unset;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .fixed-bottom {
+        left: 270px;
+    }
+    .modal-lg {
+        max-width: 50% !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+/* When the width is between 250px and 350px */
+@media only screen and (min-width: 250px) and (max-width: 350px) {
+    .otp-digit input {
+        padding: 3px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .custom-new-nav-mobile-toggler {
+        display: none;
+    }
+}
