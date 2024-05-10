@@ -29,7 +29,7 @@ class AdminController extends Controller
         //generate fake email to all users
 
         // $faker = Faker::create();
-        // $users = User::all();
+        $users = User::all();
 
         // foreach ($users as $key => $user) {
         //     $usr = User::findOrFail($user->id);
